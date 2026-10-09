@@ -1,0 +1,52 @@
+{
+  "written_on": "2026-10-09T20:18:58",
+  "note": "Written after exploratory analysis of distributions, before any clustering or hypothesis test.",
+  "clarifications": [
+    "Held-out variables are summarised as 2010-2019 medians per country.",
+    "Clusters treat every country/area equally (unweighted); population-weighted summaries are reported separately.",
+    "Primary scaling remains z-score; median-IQR scaling is a sensitivity run."
+  ],
+  "exploration_log": [
+    "Skew and outliers inspected; outliers kept (real events); primary scaling stays z-score as pre-specified; median-IQR scaling is in the sensitivity grid.",
+    "Feature matrices built: decade medians of TFR, LEx, LE60 for 1950s-2010s (21 features); primary n=200, all n=236.",
+    "Held-out variables summarised as 2010-2019 medians (specified before any clustering)."
+  ],
+  "entry_1": {
+    "written_on": "2026-10-09T20:24:11",
+    "note": "Written after exploratory analysis of distributions, before any clustering or hypothesis test.",
+    "clarifications": [
+      "Held-out variables are 2010-2019 medians per country.",
+      "Clusters treat every country/area equally; population-weighted summaries reported separately.",
+      "Primary scaling remains z-score; median-IQR scaling is a sensitivity run.",
+      "Dispersion over time is reported as SD and CV."
+    ]
+  },
+  "entry_2": {
+    "written_on": "2026-10-09T20:24:11",
+    "note": "After viewing exploratory plots, still before any clustering or hypothesis test.",
+    "observations": [
+      "Countries mostly travel one common TFR-LEx corridor at different times (stage/timing differences).",
+      "LEx dispersion falls 1950s->2010s while LE60 dispersion rises (exploratory).",
+      "Only 7 of 4200 feature values have |robust z| > 3.5."
+    ],
+    "additions": [
+      "E3: residual pathways beyond stage (LE60 net of LEx; mortality-fertility transition lag, censoring flagged).",
+      "E4: LEx convergence vs LE60 divergence, with caveat on model-based older-age estimates.",
+      "If no k passes the pre-specified criteria, report the groups as partitions of a continuum."
+    ],
+    "hypotheses_changed": false
+  },
+  "entry_3": {
+    "written_on": "2026-10-09T20:30:53",
+    "note": "Written BEFORE any clustering was run.",
+    "decision_rule_clarifications": [
+      "The k-selection rule is applied to every (algorithm, k) pair. Eligible = smallest cluster share >= 5% and silhouette >= 0.25.",
+      "Choose the eligible pair with the highest median bootstrap ARI; differences < 0.02 are ties, resolved by smaller k, then order kmeans, ward, gmm.",
+      "If no pair is eligible, report that no clear discrete structure was found.",
+      "Pre-declared secondary result: same rule restricted to k in 3..8 (\"finer partition\"), because stability rules favour k=2 for continuous data. Both results are reported.",
+      "PCA keeps the smallest number of components explaining >= 90% variance on the full primary set; bootstrap refits scaler and PCA on each 80% subsample.",
+      "Small-population countries are assigned out of sample to the nearest cluster centroid.",
+      "Cluster labels are letters ordered by PC1 for readability only; they carry no value judgement."
+    ]
+  }
+}
