@@ -1,5 +1,5 @@
 {
-  "written_on": "2026-10-09T20:18:58",
+  "written_on": "2026-10-10T06:53:38",
   "note": "Written after exploratory analysis of distributions, before any clustering or hypothesis test.",
   "clarifications": [
     "Held-out variables are summarised as 2010-2019 medians per country.",
@@ -12,7 +12,7 @@
     "Held-out variables summarised as 2010-2019 medians (specified before any clustering)."
   ],
   "entry_1": {
-    "written_on": "2026-10-09T20:24:11",
+    "written_on": "2026-10-10T06:53:45",
     "note": "Written after exploratory analysis of distributions, before any clustering or hypothesis test.",
     "clarifications": [
       "Held-out variables are 2010-2019 medians per country.",
@@ -22,7 +22,7 @@
     ]
   },
   "entry_2": {
-    "written_on": "2026-10-09T20:24:11",
+    "written_on": "2026-10-10T06:53:45",
     "note": "After viewing exploratory plots, still before any clustering or hypothesis test.",
     "observations": [
       "Countries mostly travel one common TFR-LEx corridor at different times (stage/timing differences).",
@@ -37,7 +37,7 @@
     "hypotheses_changed": false
   },
   "entry_3": {
-    "written_on": "2026-10-09T20:30:53",
+    "written_on": "2026-10-10T06:53:48",
     "note": "Written BEFORE any clustering was run.",
     "decision_rule_clarifications": [
       "The k-selection rule is applied to every (algorithm, k) pair. Eligible = smallest cluster share >= 5% and silhouette >= 0.25.",
@@ -47,6 +47,32 @@
       "PCA keeps the smallest number of components explaining >= 90% variance on the full primary set; bootstrap refits scaler and PCA on each 80% subsample.",
       "Small-population countries are assigned out of sample to the nearest cluster centroid.",
       "Cluster labels are letters ordered by PC1 for readability only; they carry no value judgement."
+    ]
+  },
+  "entry_4": {
+    "written_on": "2026-10-10T07:11:53",
+    "note": "Written after seeing the k-selection results. The rule itself was locked earlier and applied unchanged.",
+    "locked_rule_result": {
+      "primary": "kmeans k=2",
+      "finer": "kmeans k=3"
+    },
+    "post_hoc": [
+      "k=5 view (gap statistic suggestion)",
+      "Gaussian-null silhouette test for structure vs continuum",
+      "Description of D vs E difference at k=5 (exploratory)"
+    ]
+  },
+  "entry_5": {
+    "written_on": "2026-10-10T07:18:59",
+    "note": "Exploratory aims E1, E3, E4 were declared before clustering. The D-vs-E focus at k=5 is post hoc.",
+    "fixed_choices": [
+      "Lag thresholds: LEx >= 60 and TFR < 3 using 5-year centered rolling medians; censoring reported, not imputed.",
+      "E3a: quadratic fit of LE60 on LEx per decade (primary set).",
+      "E4 cluster-variance shares are descriptive only (circular)."
+    ],
+    "limitations": [
+      "Lag results come from a selected subset (97 of 200).",
+      "Older-age and early-year values for low-data countries are partly model-based."
     ]
   }
 }

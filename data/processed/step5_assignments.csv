@@ -1,0 +1,237 @@
+ISO3_code,primary,finer,k5_posthoc,small_pop,Location,Region,Subregion
+ABW,B,C,D,False,Aruba,Latin America and the Caribbean,Caribbean
+AFG,A,A,A,False,Afghanistan,Asia,Southern Asia
+AGO,A,A,A,False,Angola,Africa,Middle Africa
+AIA,B,B,C,True,Anguilla,Latin America and the Caribbean,Caribbean
+ALB,B,C,C,False,Albania,Europe,Southern Europe
+AND,B,C,E,True,Andorra,Europe,Southern Europe
+ARE,B,B,C,False,United Arab Emirates,Asia,Western Asia
+ARG,B,C,D,False,Argentina,Latin America and the Caribbean,South America
+ARM,B,B,D,False,Armenia,Asia,Western Asia
+ASM,B,B,C,True,American Samoa,Oceania,Polynesia
+ATG,B,C,D,True,Antigua and Barbuda,Latin America and the Caribbean,Caribbean
+AUS,B,C,E,False,Australia,Oceania,Australia/New Zealand
+AUT,B,C,E,False,Austria,Europe,Western Europe
+AZE,A,B,B,False,Azerbaijan,Asia,Western Asia
+BDI,A,A,A,False,Burundi,Africa,Eastern Africa
+BEL,B,C,E,False,Belgium,Europe,Western Europe
+BEN,A,A,A,False,Benin,Africa,Western Africa
+BES,B,C,E,True,"Bonaire, Sint Eustatius and Saba",Latin America and the Caribbean,Caribbean
+BFA,A,A,A,False,Burkina Faso,Africa,Western Africa
+BGD,A,B,B,False,Bangladesh,Asia,Southern Asia
+BGR,B,C,D,False,Bulgaria,Europe,Eastern Europe
+BHR,B,B,C,False,Bahrain,Asia,Western Asia
+BHS,B,C,D,False,Bahamas,Latin America and the Caribbean,Caribbean
+BIH,B,B,C,False,Bosnia and Herzegovina,Europe,Southern Europe
+BLM,B,C,E,True,Saint Barthélemy,Latin America and the Caribbean,Caribbean
+BLR,B,C,D,False,Belarus,Europe,Eastern Europe
+BLZ,B,B,C,False,Belize,Latin America and the Caribbean,Central America
+BMU,B,C,E,True,Bermuda,Northern America,Northern America
+BOL,A,B,B,False,Bolivia (Plurinational State of),Latin America and the Caribbean,South America
+BRA,B,B,C,False,Brazil,Latin America and the Caribbean,South America
+BRB,B,C,D,False,Barbados,Latin America and the Caribbean,Caribbean
+BRN,B,B,C,False,Brunei Darussalam,Asia,South-Eastern Asia
+BTN,A,A,B,False,Bhutan,Asia,Southern Asia
+BWA,A,A,B,False,Botswana,Africa,Southern Africa
+CAF,A,A,A,False,Central African Republic,Africa,Middle Africa
+CAN,B,C,E,False,Canada,Northern America,Northern America
+CHE,B,C,E,False,Switzerland,Europe,Western Europe
+CHL,B,C,C,False,Chile,Latin America and the Caribbean,South America
+CHN,B,B,C,False,China,Asia,Eastern Asia
+CIV,A,A,A,False,Côte d'Ivoire,Africa,Western Africa
+CMR,A,A,A,False,Cameroon,Africa,Middle Africa
+COD,A,A,A,False,Democratic Republic of the Congo,Africa,Middle Africa
+COG,A,A,B,False,Congo,Africa,Middle Africa
+COK,A,B,B,True,Cook Islands,Oceania,Polynesia
+COL,B,B,C,False,Colombia,Latin America and the Caribbean,South America
+COM,A,A,A,False,Comoros,Africa,Eastern Africa
+CPV,A,B,B,False,Cabo Verde,Africa,Western Africa
+CRI,B,C,E,False,Costa Rica,Latin America and the Caribbean,Central America
+CUB,B,C,E,False,Cuba,Latin America and the Caribbean,Caribbean
+CUW,B,C,D,False,Curaçao,Latin America and the Caribbean,Caribbean
+CYM,B,C,D,True,Cayman Islands,Latin America and the Caribbean,Caribbean
+CYP,B,C,E,False,Cyprus,Asia,Western Asia
+CZE,B,C,D,False,Czechia,Europe,Eastern Europe
+DEU,B,C,E,False,Germany,Europe,Western Europe
+DJI,A,A,B,False,Djibouti,Africa,Eastern Africa
+DMA,B,B,C,True,Dominica,Latin America and the Caribbean,Caribbean
+DNK,B,C,E,False,Denmark,Europe,Northern Europe
+DOM,B,B,C,False,Dominican Republic,Latin America and the Caribbean,Caribbean
+DZA,A,B,B,False,Algeria,Africa,Northern Africa
+ECU,B,B,C,False,Ecuador,Latin America and the Caribbean,South America
+EGY,A,B,B,False,Egypt,Africa,Northern Africa
+ERI,A,A,A,False,Eritrea,Africa,Eastern Africa
+ESH,A,A,B,False,Western Sahara,Africa,Northern Africa
+ESP,B,C,E,False,Spain,Europe,Southern Europe
+EST,B,C,D,False,Estonia,Europe,Northern Europe
+ETH,A,A,A,False,Ethiopia,Africa,Eastern Africa
+FIN,B,C,E,False,Finland,Europe,Northern Europe
+FJI,A,B,B,False,Fiji,Oceania,Melanesia
+FLK,B,B,D,True,Falkland Islands (Malvinas),Latin America and the Caribbean,South America
+FRA,B,C,E,False,France,Europe,Western Europe
+FRO,B,C,E,True,Faroe Islands,Europe,Northern Europe
+FSM,A,B,B,False,Micronesia (Fed. States of),Oceania,Micronesia
+GAB,A,B,B,False,Gabon,Africa,Middle Africa
+GBR,B,C,E,False,United Kingdom,Europe,Northern Europe
+GEO,B,C,D,False,Georgia,Asia,Western Asia
+GGY,B,C,E,True,Guernsey,Europe,Northern Europe
+GHA,A,A,B,False,Ghana,Africa,Western Africa
+GIB,B,C,E,True,Gibraltar,Europe,Southern Europe
+GIN,A,A,A,False,Guinea,Africa,Western Africa
+GLP,B,C,C,False,Guadeloupe,Latin America and the Caribbean,Caribbean
+GMB,A,A,A,False,Gambia,Africa,Western Africa
+GNB,A,A,A,False,Guinea-Bissau,Africa,Western Africa
+GNQ,A,A,A,False,Equatorial Guinea,Africa,Middle Africa
+GRC,B,C,E,False,Greece,Europe,Southern Europe
+GRD,B,B,C,False,Grenada,Latin America and the Caribbean,Caribbean
+GRL,B,B,C,True,Greenland,Northern America,Northern America
+GTM,A,B,B,False,Guatemala,Latin America and the Caribbean,Central America
+GUF,B,B,C,False,French Guiana,Latin America and the Caribbean,South America
+GUM,B,B,C,False,Guam,Oceania,Micronesia
+GUY,A,B,B,False,Guyana,Latin America and the Caribbean,South America
+HKG,B,C,E,False,"China, Hong Kong SAR",Asia,Eastern Asia
+HND,A,B,B,False,Honduras,Latin America and the Caribbean,Central America
+HRV,B,C,D,False,Croatia,Europe,Southern Europe
+HTI,A,A,B,False,Haiti,Latin America and the Caribbean,Caribbean
+HUN,B,C,D,False,Hungary,Europe,Eastern Europe
+IDN,A,B,B,False,Indonesia,Asia,South-Eastern Asia
+IMN,B,C,E,True,Isle of Man,Europe,Northern Europe
+IND,A,B,B,False,India,Asia,Southern Asia
+IRL,B,C,E,False,Ireland,Europe,Northern Europe
+IRN,A,B,B,False,Iran (Islamic Republic of),Asia,Southern Asia
+IRQ,A,B,B,False,Iraq,Asia,Western Asia
+ISL,B,C,E,False,Iceland,Europe,Northern Europe
+ISR,B,C,E,False,Israel,Asia,Western Asia
+ITA,B,C,E,False,Italy,Europe,Southern Europe
+JAM,B,C,D,False,Jamaica,Latin America and the Caribbean,Caribbean
+JEY,B,C,E,False,Jersey,Europe,Northern Europe
+JOR,A,B,B,False,Jordan,Asia,Western Asia
+JPN,B,C,E,False,Japan,Asia,Eastern Asia
+KAZ,B,B,D,False,Kazakhstan,Asia,Central Asia
+KEN,A,A,B,False,Kenya,Africa,Eastern Africa
+KGZ,A,B,B,False,Kyrgyzstan,Asia,Central Asia
+KHM,A,A,B,False,Cambodia,Asia,South-Eastern Asia
+KIR,A,B,B,False,Kiribati,Oceania,Micronesia
+KNA,B,B,C,True,Saint Kitts and Nevis,Latin America and the Caribbean,Caribbean
+KOR,B,B,C,False,Republic of Korea,Asia,Eastern Asia
+KWT,B,B,C,False,Kuwait,Asia,Western Asia
+LAO,A,A,B,False,Lao People's Democratic Republic,Asia,South-Eastern Asia
+LBN,B,B,C,False,Lebanon,Asia,Western Asia
+LBR,A,A,A,False,Liberia,Africa,Western Africa
+LBY,A,B,B,False,Libya,Africa,Northern Africa
+LCA,B,B,C,False,Saint Lucia,Latin America and the Caribbean,Caribbean
+LIE,B,C,E,True,Liechtenstein,Europe,Western Europe
+LKA,B,B,C,False,Sri Lanka,Asia,Southern Asia
+LSO,A,A,A,False,Lesotho,Africa,Southern Africa
+LTU,B,C,D,False,Lithuania,Europe,Northern Europe
+LUX,B,C,E,False,Luxembourg,Europe,Western Europe
+LVA,B,C,D,False,Latvia,Europe,Northern Europe
+MAC,B,C,E,False,"China, Macao SAR",Asia,Eastern Asia
+MAF,B,C,E,True,Saint Martin (French part),Latin America and the Caribbean,Caribbean
+MAR,A,B,B,False,Morocco,Africa,Northern Africa
+MCO,B,C,E,True,Monaco,Europe,Western Europe
+MDA,B,B,D,False,Republic of Moldova,Europe,Eastern Europe
+MDG,A,A,A,False,Madagascar,Africa,Eastern Africa
+MDV,A,B,B,False,Maldives,Asia,Southern Asia
+MEX,B,B,C,False,Mexico,Latin America and the Caribbean,Central America
+MHL,A,A,B,True,Marshall Islands,Oceania,Micronesia
+MKD,B,C,D,False,North Macedonia,Europe,Southern Europe
+MLI,A,A,A,False,Mali,Africa,Western Africa
+MLT,B,C,E,False,Malta,Europe,Southern Europe
+MMR,A,B,B,False,Myanmar,Asia,South-Eastern Asia
+MNE,B,C,D,False,Montenegro,Europe,Southern Europe
+MNG,A,B,B,False,Mongolia,Asia,Eastern Asia
+MNP,B,B,C,True,Northern Mariana Islands,Oceania,Micronesia
+MOZ,A,A,A,False,Mozambique,Africa,Eastern Africa
+MRT,A,A,A,False,Mauritania,Africa,Western Africa
+MSR,B,C,D,True,Montserrat,Latin America and the Caribbean,Caribbean
+MTQ,B,C,E,False,Martinique,Latin America and the Caribbean,Caribbean
+MUS,B,B,C,False,Mauritius,Africa,Eastern Africa
+MWI,A,A,A,False,Malawi,Africa,Eastern Africa
+MYS,B,B,C,False,Malaysia,Asia,South-Eastern Asia
+MYT,A,B,C,False,Mayotte,Africa,Eastern Africa
+NAM,A,A,B,False,Namibia,Africa,Southern Africa
+NCL,B,B,C,False,New Caledonia,Oceania,Melanesia
+NER,A,A,A,False,Niger,Africa,Western Africa
+NGA,A,A,A,False,Nigeria,Africa,Western Africa
+NIC,A,B,B,False,Nicaragua,Latin America and the Caribbean,Central America
+NIU,A,B,B,True,Niue,Oceania,Polynesia
+NLD,B,C,E,False,Netherlands,Europe,Western Europe
+NOR,B,C,E,False,Norway,Europe,Northern Europe
+NPL,A,A,B,False,Nepal,Asia,Southern Asia
+NRU,A,A,B,True,Nauru,Oceania,Micronesia
+NZL,B,C,E,False,New Zealand,Oceania,Australia/New Zealand
+OMN,A,B,B,False,Oman,Asia,Western Asia
+PAK,A,A,B,False,Pakistan,Asia,Southern Asia
+PAN,B,B,C,False,Panama,Latin America and the Caribbean,Central America
+PER,A,B,C,False,Peru,Latin America and the Caribbean,South America
+PHL,A,B,B,False,Philippines,Asia,South-Eastern Asia
+PLW,A,B,B,True,Palau,Oceania,Micronesia
+PNG,A,A,B,False,Papua New Guinea,Oceania,Melanesia
+POL,B,C,D,False,Poland,Europe,Eastern Europe
+PRI,B,C,E,False,Puerto Rico,Latin America and the Caribbean,Caribbean
+PRK,B,B,D,False,Dem. People's Republic of Korea,Asia,Eastern Asia
+PRT,B,C,E,False,Portugal,Europe,Southern Europe
+PRY,B,B,C,False,Paraguay,Latin America and the Caribbean,South America
+PSE,A,B,B,False,State of Palestine,Asia,Western Asia
+PYF,B,B,C,False,French Polynesia,Oceania,Polynesia
+QAT,B,B,C,False,Qatar,Asia,Western Asia
+REU,B,C,C,False,Réunion,Africa,Eastern Africa
+ROU,B,C,D,False,Romania,Europe,Eastern Europe
+RUS,B,C,D,False,Russian Federation,Europe,Eastern Europe
+RWA,A,A,A,False,Rwanda,Africa,Eastern Africa
+SAU,A,B,B,False,Saudi Arabia,Asia,Western Asia
+SDN,A,A,B,False,Sudan,Africa,Northern Africa
+SEN,A,A,A,False,Senegal,Africa,Western Africa
+SGP,B,C,C,False,Singapore,Asia,South-Eastern Asia
+SHN,B,C,D,True,Saint Helena,Africa,Western Africa
+SLB,A,B,B,False,Solomon Islands,Oceania,Melanesia
+SLE,A,A,A,False,Sierra Leone,Africa,Western Africa
+SLV,A,B,B,False,El Salvador,Latin America and the Caribbean,Central America
+SMR,B,C,E,True,San Marino,Europe,Southern Europe
+SOM,A,A,A,False,Somalia,Africa,Eastern Africa
+SPM,B,C,D,True,Saint Pierre and Miquelon,Northern America,Northern America
+SRB,B,C,D,False,Serbia,Europe,Southern Europe
+SSD,A,A,A,False,South Sudan,Africa,Eastern Africa
+STP,A,A,B,False,Sao Tome and Principe,Africa,Middle Africa
+SUR,A,B,B,False,Suriname,Latin America and the Caribbean,South America
+SVK,B,C,D,False,Slovakia,Europe,Eastern Europe
+SVN,B,C,D,False,Slovenia,Europe,Southern Europe
+SWE,B,C,E,False,Sweden,Europe,Northern Europe
+SWZ,A,A,A,False,Eswatini,Africa,Southern Africa
+SXM,B,C,D,True,Sint Maarten (Dutch part),Latin America and the Caribbean,Caribbean
+SYC,B,B,C,False,Seychelles,Africa,Eastern Africa
+SYR,A,B,B,False,Syrian Arab Republic,Asia,Western Asia
+TCA,B,B,C,True,Turks and Caicos Islands,Latin America and the Caribbean,Caribbean
+TCD,A,A,A,False,Chad,Africa,Middle Africa
+TGO,A,A,A,False,Togo,Africa,Western Africa
+THA,B,B,C,False,Thailand,Asia,South-Eastern Asia
+TJK,A,B,B,False,Tajikistan,Asia,Central Asia
+TKL,B,B,C,True,Tokelau,Oceania,Polynesia
+TKM,A,B,B,False,Turkmenistan,Asia,Central Asia
+TLS,A,A,A,False,Timor-Leste,Asia,South-Eastern Asia
+TON,A,B,B,False,Tonga,Oceania,Polynesia
+TTO,B,B,C,False,Trinidad and Tobago,Latin America and the Caribbean,Caribbean
+TUN,A,B,C,False,Tunisia,Africa,Northern Africa
+TUR,B,B,C,False,Türkiye,Asia,Western Asia
+TUV,A,B,B,True,Tuvalu,Oceania,Polynesia
+TWN,B,C,C,False,"China, Taiwan Province of China",Asia,Eastern Asia
+TZA,A,A,A,False,United Republic of Tanzania,Africa,Eastern Africa
+UGA,A,A,A,False,Uganda,Africa,Eastern Africa
+UKR,B,C,D,False,Ukraine,Europe,Eastern Europe
+URY,B,C,E,False,Uruguay,Latin America and the Caribbean,South America
+USA,B,C,E,False,United States of America,Northern America,Northern America
+UZB,A,B,B,False,Uzbekistan,Asia,Central Asia
+VCT,B,B,C,False,Saint Vincent and the Grenadines,Latin America and the Caribbean,Caribbean
+VEN,B,B,C,False,Venezuela (Bolivarian Republic of),Latin America and the Caribbean,South America
+VGB,B,C,D,True,British Virgin Islands,Latin America and the Caribbean,Caribbean
+VIR,B,B,C,True,United States Virgin Islands,Latin America and the Caribbean,Caribbean
+VNM,B,B,C,False,Viet Nam,Asia,South-Eastern Asia
+VUT,A,B,B,False,Vanuatu,Oceania,Melanesia
+WLF,A,B,B,True,Wallis and Futuna Islands,Oceania,Polynesia
+WSM,A,B,B,False,Samoa,Oceania,Polynesia
+XKX,B,B,C,False,Kosovo (under UNSC res. 1244),Europe,Southern Europe
+YEM,A,A,A,False,Yemen,Asia,Western Asia
+ZAF,A,B,B,False,South Africa,Africa,Southern Africa
+ZMB,A,A,A,False,Zambia,Africa,Eastern Africa
+ZWE,A,A,A,False,Zimbabwe,Africa,Eastern Africa
