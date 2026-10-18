@@ -1,0 +1,41 @@
+{
+  "cluster_indicators": [
+    "TFR",
+    "LEx",
+    "LE60"
+  ],
+  "decades_start": [
+    1950,
+    1960,
+    1970,
+    1980,
+    1990,
+    2000,
+    2010
+  ],
+  "heldout": [
+    "MedianAgePop",
+    "CNMR",
+    "PopGrowthRate",
+    "PopDensity",
+    "TPopulation1July",
+    "LE60Female",
+    "LE60Male"
+  ],
+  "hypotheses": {
+    "H1": "ARI(clusters, UN geographic regions) < 0.5",
+    "H2": "dispersion of TFR/LEx lower in 2100 than 2019 (Medium); relative 95% PI width of 2100 population larger for high-fertility clusters",
+    "H3": "median bootstrap ARI >= 0.7; >= 85% of countries keep cluster in >= 80% of resamples"
+  },
+  "k_range": [
+    2,
+    10
+  ],
+  "locked_on": "2026-10-09",
+  "min_cluster_share": 0.05,
+  "min_silhouette": 0.25,
+  "n_bootstrap": 500,
+  "primary_set": "small_pop == False (n=200); sensitivity: all 236",
+  "seed": 42,
+  "subsample": 0.8
+}

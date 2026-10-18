@@ -1,5 +1,5 @@
 {
-  "written_on": "2026-10-10T06:53:38",
+  "written_on": "2026-10-18T19:17:09",
   "note": "Written after exploratory analysis of distributions, before any clustering or hypothesis test.",
   "clarifications": [
     "Held-out variables are summarised as 2010-2019 medians per country.",
@@ -12,7 +12,7 @@
     "Held-out variables summarised as 2010-2019 medians (specified before any clustering)."
   ],
   "entry_1": {
-    "written_on": "2026-10-10T06:53:45",
+    "written_on": "2026-10-18T19:17:13",
     "note": "Written after exploratory analysis of distributions, before any clustering or hypothesis test.",
     "clarifications": [
       "Held-out variables are 2010-2019 medians per country.",
@@ -22,7 +22,7 @@
     ]
   },
   "entry_2": {
-    "written_on": "2026-10-10T06:53:45",
+    "written_on": "2026-10-18T19:17:13",
     "note": "After viewing exploratory plots, still before any clustering or hypothesis test.",
     "observations": [
       "Countries mostly travel one common TFR-LEx corridor at different times (stage/timing differences).",
@@ -36,21 +36,8 @@
     ],
     "hypotheses_changed": false
   },
-  "entry_3": {
-    "written_on": "2026-10-10T06:53:48",
-    "note": "Written BEFORE any clustering was run.",
-    "decision_rule_clarifications": [
-      "The k-selection rule is applied to every (algorithm, k) pair. Eligible = smallest cluster share >= 5% and silhouette >= 0.25.",
-      "Choose the eligible pair with the highest median bootstrap ARI; differences < 0.02 are ties, resolved by smaller k, then order kmeans, ward, gmm.",
-      "If no pair is eligible, report that no clear discrete structure was found.",
-      "Pre-declared secondary result: same rule restricted to k in 3..8 (\"finer partition\"), because stability rules favour k=2 for continuous data. Both results are reported.",
-      "PCA keeps the smallest number of components explaining >= 90% variance on the full primary set; bootstrap refits scaler and PCA on each 80% subsample.",
-      "Small-population countries are assigned out of sample to the nearest cluster centroid.",
-      "Cluster labels are letters ordered by PC1 for readability only; they carry no value judgement."
-    ]
-  },
   "entry_4": {
-    "written_on": "2026-10-10T07:11:53",
+    "written_on": "2026-10-18T19:32:18",
     "note": "Written after seeing the k-selection results. The rule itself was locked earlier and applied unchanged.",
     "locked_rule_result": {
       "primary": "kmeans k=2",
@@ -63,7 +50,7 @@
     ]
   },
   "entry_5": {
-    "written_on": "2026-10-10T07:18:59",
+    "written_on": "2026-10-18T19:32:39",
     "note": "Exploratory aims E1, E3, E4 were declared before clustering. The D-vs-E focus at k=5 is post hoc.",
     "fixed_choices": [
       "Lag thresholds: LEx >= 60 and TFR < 3 using 5-year centered rolling medians; censoring reported, not imputed.",
@@ -73,6 +60,31 @@
     "limitations": [
       "Lag results come from a selected subset (97 of 200).",
       "Older-age and early-year values for low-data countries are partly model-based."
+    ]
+  },
+  "entry_6": {
+    "written_on": "2026-10-18T19:32:40",
+    "note": "Operational definitions for H2 fixed BEFORE the H2 code was run in this notebook. H2a was previewed once by the assistant on the Medium file (to test code) after the definitions were fixed; H2b was not previewed.",
+    "H2a": "Primary set (n=200), Medium variant: SD and CV of TFR and of LEx are all smaller in 2100 than in 2019.",
+    "H2b": "Relative 95% PI width of 2100 population = (Upper 95 PI - Lower 95 PI) / Median PI. Supported iff Spearman rho(PC1 stage score, width) < 0 with p < 0.05 AND group medians A > B > C at k=3.",
+    "descriptive_extras": [
+      "LE60 dispersion",
+      "group medians over time (fixed assignment)",
+      "High-minus-Low scenario spread (scenario, not probability)",
+      "population shares by group",
+      "fan charts"
+    ],
+    "interpretation_rule": "Convergence in projections partly reflects projection-model assumptions; reported as a property of the scenario."
+  },
+  "entry_7": {
+    "written_on": "2026-10-18T20:13:13",
+    "H2a": "Supported (SD and CV of TFR and LEx all lower in 2100 than in 2019); convergence is partly a projection-model property.",
+    "H2b": "Supported in the pre-specified primary set (rho=-0.19, p=0.007, medians A>B>C) but NOT in the all-236 sensitivity run (rho=-0.07, p=0.30); reported as fragile.",
+    "H3": "Supported (median bootstrap ARI 0.98 at k=3; 97.5% keep group in >=80% of resamples).",
+    "grid_note": "Sensitivity grid run with 100 bootstraps per setting; results in data/processed/step6b_grid.csv.",
+    "limitations": [
+      "Ward and GMM partitions agree less with k-means (boundaries are method-dependent).",
+      "Borderline countries are flagged and shown with lower confidence."
     ]
   }
 }

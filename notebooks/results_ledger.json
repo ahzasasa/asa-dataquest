@@ -1,0 +1,84 @@
+{
+  "pc1_variance": 0.786,
+  "pc123_variance": 0.918,
+  "kmeans_k2": {
+    "silhouette": 0.517,
+    "median_ARI": 1.0,
+    "pct_keep80": 1.0,
+    "min_share": 0.49
+  },
+  "kmeans_k3": {
+    "silhouette": 0.431,
+    "median_ARI": 0.979,
+    "pct_keep80": 0.975,
+    "min_share": 0.275
+  },
+  "ARI_vs_regions": {
+    "primary": 0.225,
+    "finer": 0.311,
+    "k5_posthoc": 0.244
+  },
+  "dispersion_ratio_2100_vs_2019": {
+    "SD": {
+      "LE60": 1.398,
+      "LEx": 0.829,
+      "TFR": 0.166
+    },
+    "CV": {
+      "LE60": 1.04,
+      "LEx": 0.714,
+      "TFR": 0.251
+    }
+  },
+  "grid": {
+    "kmeans_k2": {
+      "ARI_min": 0.96,
+      "ARI_median": 0.99,
+      "same_group_min_pct": 99.0
+    },
+    "ward_k2": {
+      "ARI_min": 0.257,
+      "ARI_median": 0.617,
+      "same_group_min_pct": 75.5
+    },
+    "gmm_k2": {
+      "ARI_min": 0.3,
+      "ARI_median": 0.647,
+      "same_group_min_pct": 77.5
+    },
+    "kmeans_k3": {
+      "ARI_min": 0.828,
+      "ARI_median": 0.946,
+      "same_group_min_pct": 94.0
+    },
+    "ward_k3": {
+      "ARI_min": 0.389,
+      "ARI_median": 0.59,
+      "same_group_min_pct": 71.0
+    },
+    "gmm_k3": {
+      "ARI_min": 0.568,
+      "ARI_median": 0.625,
+      "same_group_min_pct": 84.0
+    }
+  },
+  "borderline_below_0.8": 5,
+  "share_keep_ge_0.8_k3": 0.975,
+  "lag": {
+    "n_both_observed": 97,
+    "median_years": 19.0,
+    "p25": 12.0,
+    "p75": 30.0
+  },
+  "sex_gap_2010s_k5": {
+    "A": 1.51,
+    "B": 2.59,
+    "C": 3.4,
+    "D": 4.58,
+    "E": 3.55
+  },
+  "n_countries": {
+    "all": 236,
+    "primary": 200
+  }
+}
